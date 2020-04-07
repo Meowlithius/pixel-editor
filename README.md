@@ -1,4 +1,6 @@
+
 # Lospec Pixel Editor
+[![Build Status](https://travis-ci.com/Meowlithius/pixel-editor.svg?branch=master)](https://travis-ci.com/Meowlithius/pixel-editor)
 
 This is a browser based software for creating pixel art
 
