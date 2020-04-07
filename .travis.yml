@@ -5,4 +5,7 @@ install:
 - npm install
 - npm ci
 bulid: 
-- npm run build --if-present
+- node build.js
+deploy:
+  ...
+  skip_cleanup: true
