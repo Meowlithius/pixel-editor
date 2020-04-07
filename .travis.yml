@@ -5,4 +5,4 @@ install:
 - npm install
 - npm ci
 bulid: 
-- npm run build
+- npm run build --if-present
