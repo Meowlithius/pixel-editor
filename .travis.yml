@@ -5,6 +5,7 @@ install:
 - npm install
 - npm ci
 - echo "npm test disabled"
+script: 'true'
 build: 
 - npm run build.js
 deploy: 
