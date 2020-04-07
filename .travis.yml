@@ -1,3 +1,8 @@
 language: node_js
-npm ci
-npm test
+node_js: 
+- 10
+install:
+- npm install
+- npm ci
+bulid: 
+- npm run build
