@@ -4,8 +4,8 @@ node_js:
 install:
 - npm install
 - npm ci
-bulid: 
-- node build.js
-deploy:
-  ...
-  skip_cleanup: true
+build: 
+- npm run build.js
+deploy: 
+...
+- skip_cleanup: true
